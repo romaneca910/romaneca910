@@ -1,0 +1,200 @@
+{
+  "style": "soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art",
+  "palette": {
+    "paper": "#FFF1F7",
+    "surface": "#FDE6F0",
+    "surfaceDeep": "#F7D9E8",
+    "rose": "#D96BA8",
+    "roseDeep": "#B04A86",
+    "mint": "#76C7B7",
+    "mintDeep": "#4FA99A",
+    "gold": "#F6C85F",
+    "ink": "#362A3A",
+    "inkSoft": "#6B5471",
+    "cream": "#FFF6FB"
+  },
+  "assets": [
+    {
+      "name": "bg_main",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_main.png",
+      "prompt": "Vertical 9:16 portrait mobile game menu background, soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art, a pale blush #FFF1F7 dawn spring garden, a cream #FFF6FB crescent moon low on the left, mint #76C7B7 foliage silhouettes along the bottom edge, two hanging rose and gold paper lanterns at the upper right, soft warm light, the whole central area kept empty and low contrast so interface text reads over it, no photographic texture, no text, no letters, no UI elements"
+    },
+    {
+      "name": "bg_game",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_game.png",
+      "prompt": "Vertical 9:16 portrait mobile game play background, soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art, a softly blurred blush #FFF1F7 garden terrace of pale stone, a few drifting petals along the left and right edges only, very low contrast and deliberately quiet through the whole middle so an overlaid tile board stays readable, no photographic texture, no text, no letters, no UI elements"
+    },
+    {
+      "name": "sprite_flower_plum",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "top-down, symmetric, no facing",
+      "target": "Assets/Art/Sprites/sprite_flower_plum.png",
+      "prompt": "One single plum blossom with five soft pink #E79BC2 petals and a pale gold centre, seen from directly above, symmetric about both axes, soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art, one subject centred and fully in frame, crisp silhouette, no other objects, no photographic texture, no text, no letters"
+    },
+    {
+      "name": "sprite_flower_peony",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "top-down, symmetric, no facing",
+      "target": "Assets/Art/Sprites/sprite_flower_peony.png",
+      "prompt": "One single rose-magenta #D96BA8 peony with layered ruffled petals, seen from directly above, symmetric about both axes, soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art, one subject centred and fully in frame, crisp silhouette, no other objects, no photographic texture, no text, no letters"
+    },
+    {
+      "name": "sprite_flower_moon",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "top-down, symmetric, no facing",
+      "target": "Assets/Art/Sprites/sprite_flower_moon.png",
+      "prompt": "One single cream white #FFF6FB moonflower, a wide trumpet bloom with a pale lilac throat, seen from directly above, symmetric about both axes, soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art, one subject centred and fully in frame, crisp silhouette, no other objects, no photographic texture, no text, no letters"
+    },
+    {
+      "name": "sprite_flower_lotus",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "top-down, symmetric, no facing",
+      "target": "Assets/Art/Sprites/sprite_flower_lotus.png",
+      "prompt": "One single mint-teal #76C7B7 lotus flower with pointed petals in two rings, seen from directly above, symmetric about both axes, soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art, one subject centred and fully in frame, crisp silhouette, no other objects, no photographic texture, no text, no letters"
+    },
+    {
+      "name": "sprite_flower_marigold",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "top-down, symmetric, no facing",
+      "target": "Assets/Art/Sprites/sprite_flower_marigold.png",
+      "prompt": "One single golden #F6C85F marigold with dense round layered petals, seen from directly above, symmetric about both axes, soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art, one subject centred and fully in frame, crisp silhouette, no other objects, no photographic texture, no text, no letters"
+    },
+    {
+      "name": "sprite_tile_base",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "top-down, symmetric, no facing",
+      "target": "Assets/Art/Sprites/sprite_tile_base.png",
+      "prompt": "One single rounded square ceramic garden tile with a soft bevel, a pale blush #FDE6F0 glaze and a thick rounded rose rim, the centre left plain and empty, seen from directly above, soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art, one subject centred and fully in frame, crisp silhouette, no other objects, no photographic texture, no text, no letters"
+    },
+    {
+      "name": "sprite_board_frame",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "top-down, symmetric, no facing",
+      "target": "Assets/Art/Sprites/sprite_board_frame.png",
+      "prompt": "One single square frame of woven bamboo and pale ceramic with thick rounded corners and a completely hollow transparent middle, seen from directly above, soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art, one subject centred and fully in frame, crisp silhouette, no other objects, no photographic texture, no text, no letters"
+    },
+    {
+      "name": "sprite_bloom_ring",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "symmetric, no facing",
+      "target": "Assets/Art/Sprites/sprite_bloom_ring.png",
+      "prompt": "One single thin round wreath of tiny gold #F6C85F petals forming a ring with a completely hollow middle, soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art, one subject centred and fully in frame, crisp silhouette, no other objects, no photographic texture, no text, no letters"
+    },
+    {
+      "name": "sprite_arrow_shift",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "side view, facing RIGHT",
+      "target": "Assets/Art/Sprites/sprite_arrow_shift.png",
+      "prompt": "One single chunky rounded arrow in rose #D96BA8 with soft gouache shading, drawn in side view pointing to the right, soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art, one subject centred and fully in frame, crisp silhouette, no other objects, no photographic texture, no text, no letters"
+    },
+    {
+      "name": "sprite_icon_back",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "side view, facing LEFT",
+      "target": "Assets/Art/Sprites/sprite_icon_back.png",
+      "prompt": "One single rounded leaf-shaped chevron icon in mint #76C7B7, drawn in side view pointing to the left, soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art, one subject centred and fully in frame, crisp silhouette, no other objects, no photographic texture, no text, no letters"
+    },
+    {
+      "name": "sprite_icon_pause",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "symmetric, no facing",
+      "target": "Assets/Art/Sprites/sprite_icon_pause.png",
+      "prompt": "One single pause icon made of two rounded rose #D96BA8 petal strokes standing side by side, soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art, one subject centred and fully in frame, crisp silhouette, no other objects, no photographic texture, no text, no letters"
+    },
+    {
+      "name": "sprite_icon_close",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "symmetric, no facing",
+      "target": "Assets/Art/Sprites/sprite_icon_close.png",
+      "prompt": "One single rounded cross icon made of two crossed rose #D96BA8 petal strokes, soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art, one subject centred and fully in frame, crisp silhouette, no other objects, no photographic texture, no text, no letters"
+    },
+    {
+      "name": "sprite_icon_hint",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "symmetric, no facing",
+      "target": "Assets/Art/Sprites/sprite_icon_hint.png",
+      "prompt": "One single small hanging paper lantern in gold #F6C85F with a warm glow and a short cord, soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art, one subject centred and fully in frame, crisp silhouette, no other objects, no photographic texture, no text, no letters"
+    },
+    {
+      "name": "sprite_sparkle",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "symmetric, no facing",
+      "target": "Assets/Art/Sprites/sprite_sparkle.png",
+      "prompt": "One single four point petal glint sparkle in cream #FFF6FB with soft feathered tips, soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art, one subject centred and fully in frame, crisp silhouette, no other objects, no photographic texture, no text, no letters"
+    },
+    {
+      "name": "sprite_lantern",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "symmetric, no facing",
+      "target": "Assets/Art/Sprites/sprite_lantern.png",
+      "prompt": "One single hanging paper festival lantern in rose #D96BA8 and gold #F6C85F with a short cord and a soft warm glow, soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art, one subject centred and fully in frame, crisp silhouette, no other objects, no photographic texture, no text, no letters"
+    },
+    {
+      "name": "sprite_petal_drift",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "symmetric, no facing",
+      "target": "Assets/Art/Sprites/sprite_petal_drift.png",
+      "prompt": "One single falling flower petal in pale pink #E79BC2 with a soft curl along one edge, soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art, one subject centred and fully in frame, crisp silhouette, no other objects, no photographic texture, no text, no letters"
+    },
+    {
+      "name": "sprite_mark_moonbloom",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "symmetric, no facing",
+      "target": "Assets/Art/Sprites/sprite_mark_moonbloom.png",
+      "prompt": "One single flat emblem of a cream #FFF6FB crescent moon enclosing a five petal rose #D96BA8 blossom, an abstract symbol with absolutely no letters and no writing of any kind, soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art, one subject centred and fully in frame, crisp silhouette, no other objects, no photographic texture, no text, no letters"
+    },
+    {
+      "name": "sprite_chapter_node",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "top-down, symmetric, no facing",
+      "target": "Assets/Art/Sprites/sprite_chapter_node.png",
+      "prompt": "One single round pale stone stepping disc with a mossy mint #76C7B7 rim and a flat blush top, seen from directly above, soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art, one subject centred and fully in frame, crisp silhouette, no other objects, no photographic texture, no text, no letters"
+    },
+    {
+      "name": "sprite_chapter_bud",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "top-down, symmetric, no facing",
+      "target": "Assets/Art/Sprites/sprite_chapter_bud.png",
+      "prompt": "One single closed flower bud with pale green sepals wrapped around a hint of pink, seen from directly above, soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art, one subject centred and fully in frame, crisp silhouette, no other objects, no photographic texture, no text, no letters"
+    },
+    {
+      "name": "sprite_hero_rabbit_bloom",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "side view, facing RIGHT",
+      "target": "Assets/Art/Sprites/sprite_hero_rabbit_bloom.png",
+      "prompt": "One single white moon rabbit with long soft ears, sitting and cradling a single pink #D96BA8 peony against its chest, drawn in side view facing to the right, soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art, one subject centred and fully in frame, crisp silhouette, no other objects, no photographic texture, no text, no letters"
+    },
+    {
+      "name": "sprite_card_silhouette",
+      "type": "sprite",
+      "transparent": true,
+      "facing": "symmetric, no facing",
+      "target": "Assets/Art/Sprites/sprite_card_silhouette.png",
+      "prompt": "One single flat featureless flower silhouette shape in soft grey lilac, no inner detail at all, soft hand-painted storybook gouache illustration, flat pastel palette, gentle paper grain, rounded shapes, thick soft outlines, game art, one subject centred and fully in frame, crisp silhouette, no other objects, no photographic texture, no text, no letters"
+    }
+  ]
+}

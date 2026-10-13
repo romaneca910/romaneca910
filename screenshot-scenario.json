@@ -1,0 +1,82 @@
+{
+  "notes": [
+    "Unity draws into one SurfaceView, so uiautomator sees nothing: every tap here is",
+    "computed from a real RectTransform, never estimated.",
+    "Canvas 1242x2688, ScreenMatchMode Expand, panels under an AspectRatioFitter locked",
+    "to 1242/2688. On a 1080x2400 device the canvas resolves to 1242x2760 and the panel",
+    "keeps a 36-unit letterbox, so x = panelX / 1242 and y = (36 + 2688 - panelY) / 2760.",
+    "Every element is pinned to a POINT anchor by the prefab builder, so a panel centre",
+    "is simply its anchoredPosition and no anchor arithmetic is needed.",
+    "The board is 1025 units wide at centre (621, 1370), cell 205, so cell (col,row) sits",
+    "at (621 + (col-2)*205, 1370 + (2-row)*205). Step 3 taps cell (1,2), dead centre of a",
+    "192-unit tile.",
+    "Step 1 and the PLAY step block on the loader instead of waiting a fixed time: the",
+    "menu scene shows the template SplashPanel on cold launch (FirstAnimationTime 85),",
+    "and the game scene shows its own on arrival, so a fixed wait would photograph the",
+    "loading bar and push every later tap onto the wrong screen.",
+    "Each step changes the screen for a different reason: 02 loads a scene, 03 lights the",
+    "row+column cross and the four arrows, 04 and 05 slide five tiles each along",
+    "different axes and move the counter, 06 pops the rabbit and drops HINT 3 to HINT 2,",
+    "07 covers the board with the pause card."
+  ],
+  "steps": [
+    {
+      "waitLoader": true,
+      "shot": "01_GardenMap"
+    },
+    {
+      "tapFrac": [
+        0.5,
+        0.72899
+      ],
+      "label": "PLAY",
+      "waitLoader": true,
+      "shot": "02_TilePuzzle"
+    },
+    {
+      "tapFrac": [
+        0.33494,
+        0.49058
+      ],
+      "label": "SELECT_TILE_COL1_ROW2",
+      "wait": 1.4,
+      "shot": "03_LineSelected"
+    },
+    {
+      "tapFrac": [
+        0.64493,
+        0.85109
+      ],
+      "label": "SHIFT_ROW_RIGHT",
+      "wait": 1.6,
+      "shot": "04_RowShifted"
+    },
+    {
+      "tapFrac": [
+        0.5,
+        0.79022
+      ],
+      "label": "SHIFT_COLUMN_UP",
+      "wait": 1.6,
+      "shot": "05_ColumnShifted"
+    },
+    {
+      "tapFrac": [
+        0.157,
+        0.85109
+      ],
+      "label": "HINT",
+      "wait": 1.8,
+      "shot": "06_RabbitHint"
+    },
+    {
+      "tapFrac": [
+        0.88969,
+        0.08551
+      ],
+      "label": "PAUSE",
+      "wait": 1.5,
+      "shot": "07_GardenPaused"
+    }
+  ]
+}
